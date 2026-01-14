@@ -183,7 +183,7 @@ layers:
   - BT CLR
   - {type: held}
   - {t: ▽, type: trans}
-  - VOL UP
+  - PREV
   - PP
   - NEXT
   - BRI UP
@@ -197,7 +197,7 @@ layers:
   - {t: ▽, type: trans}
   - VOL DN
   - MUTE
-  - PREV
+  - VOL UP
   - BRI DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
