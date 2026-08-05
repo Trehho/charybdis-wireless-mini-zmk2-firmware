@@ -75,7 +75,7 @@
             require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <22 21 19 38 37 36 12 0 13 14 15 25 26 27 29 2 3 16 39 40>;
+            hold-trigger-key-positions = <38 37 36 12 0 13 14 15 25 26 27 29 2 3 16 39 40>;
             label = "Homerow Right - Balanced";
             hold-trigger-on-release;
         };
@@ -89,7 +89,7 @@
             require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <36 37 38 39 40 13 14 16 19 20 9>;
+            hold-trigger-key-positions = <36 37 38 39 40 19 20 9>;
             label = "Homerow Left - Balanced";
             hold-trigger-on-release;
         };
