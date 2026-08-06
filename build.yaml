@@ -1,24 +1,15 @@
 # This file generates the GitHub Actions matrix.
 
-board:
-  - nice_nano
-
-shield:
-  - charybdis_left
-  - charybdis_right
-  - charybdis_dongle
-  - settings_reset
-
-format:
-  - bt
-  - dongle
-  - reset
-
-keymap:
-  - charybdis
-
 include:
+  - board: nice_nano
+    shield: charybdis_left
+    keymap: charybdis
   - board: nice_nano
     shield: charybdis_right
     keymap: charybdis
     snippet: studio-rpc-usb-uart
+  - board: nice_nano
+    shield: charybdis_dongle
+    keymap: charybdis
+  - board: nice_nano
+    shield: settings_reset
