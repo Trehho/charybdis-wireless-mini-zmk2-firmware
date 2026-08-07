@@ -4,6 +4,6 @@ zephyr/
 !zephyr/module.yml
 modules/
 zmk-pmw3610-driver/
-local-build/logs.txt
+local-build/
 scripts/__pycache__
 notes
