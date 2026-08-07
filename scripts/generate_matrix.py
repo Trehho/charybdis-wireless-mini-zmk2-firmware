@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 # === CONFIGURATION ===
-board = "nice_nano_v2"
+board = "nice_nano"
 # automatically find all *.keymap filenames under ../config
 keymap_dir = Path(__file__).parent.parent / "config"
 keymaps = sorted(p.stem for p in keymap_dir.glob("*.keymap"))
@@ -28,7 +28,7 @@ for keymap in keymaps:
 groups.append({
     "keymap": "default",
     "format": "reset",
-    "name": "reset-nanov2",
+    "name": "reset-nano",
     "board": board,
 })
 
