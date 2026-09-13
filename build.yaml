@@ -18,7 +18,7 @@ include:
       - charybdis_left_bt
       - charybdis_right_bt
     keymap:
-      - colemak_dh
+      - qwerty
       # - canary
       # - focal
       # - graphite
