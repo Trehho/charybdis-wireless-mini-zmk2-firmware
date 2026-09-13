@@ -180,7 +180,7 @@ To build the firmware follow either of the build processes below:
 1. Fork this repo
 2. Update the config files to match your use case
 3. Push changes and confirm the workflows are running
-4. Firmwares will be available in the action artifacts
+4. Firmwares will be available in the action artifacts.
 
 
 ## Credits
