@@ -19,9 +19,6 @@ include:
       - charybdis_right_bt
     keymap:
       - qwerty
-      # - canary
-      # - focal
-      # - graphite
 
 # ── Standard Dongle Firmwares ─────────────────────────────────────────────────
   - name: dongle_standard_nano
@@ -31,7 +28,7 @@ include:
       - charybdis_right_dongle
       - charybdis_dongle
     keymap:
-      - colemak_dh
+      # - colemak_dh
       # - canary
       # - focal
       # - graphite
