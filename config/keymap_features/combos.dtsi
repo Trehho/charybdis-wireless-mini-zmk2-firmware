@@ -22,9 +22,10 @@
             key-positions = <15 16>;
         };
 
-        combo_esc {
+        combo_esc_right {
             bindings = <&kp ESC>;
-            key-positions = <19 20>;
+            key-positions = <9 10>;
+            layers = <0>;
         };
 
         combo_sleep {
