@@ -24,7 +24,7 @@
 
         combo_esc_right {
             bindings = <&kp ESC>;
-            key-positions = <8 9>;
+            key-positions = <19 20>;
             layers = <0>;
         };
 
