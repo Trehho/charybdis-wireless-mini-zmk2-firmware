@@ -264,14 +264,14 @@
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
 
-        mm_cm_lbrkt: comma_semi_colon {
+        mm_cm_lbrkt: lbrc_lbkt_lr_two_start {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings      = <&kp LBRC>, <&kp LBKT>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
 
-        mm_cm_rbrkt: comma_semi_colon {
+        mm_cm_rbrkt: lbrc_lbkt_lr_two_end {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings      = <&kp RBRC>, <&kp RBKT>;
