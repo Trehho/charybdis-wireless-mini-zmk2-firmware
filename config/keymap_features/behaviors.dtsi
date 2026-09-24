@@ -246,7 +246,7 @@
         mm_qm_ex: question_exclamation {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp EXCLAMATION>, <&kp AT_SIGN>;
+            bindings      = <&kp AT>, <&kp EXCL>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
 
