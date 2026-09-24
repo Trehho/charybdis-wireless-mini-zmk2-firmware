@@ -243,10 +243,10 @@
             bindings = <&combo_app_windows_hold &combo_app_windows_tap>; // hold, tap
         };
 
-        mm_qm_ex: question_exclamation {
+        mm_cm_ex: question_exclamation {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp AT>, <&kp EXCL>;
+            bindings      = <&kp AT_SIGN>, <&kp EXCLAMATION>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
 
