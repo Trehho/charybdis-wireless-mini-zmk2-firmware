@@ -263,5 +263,19 @@
             bindings      = <&kp COMMA>, <&kp SEMICOLON>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
+
+        mm_cm_lbrkt: comma_semi_colon {
+            compatible    = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings      = <&kp LBRC>, <&kp LBKT>;
+            mods          = <(MOD_LSFT | MOD_RSFT)>;
+        };
+
+        mm_cm_rbrkt: comma_semi_colon {
+            compatible    = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings      = <&kp RBRC>, <&kp RBKT>;
+            mods          = <(MOD_LSFT | MOD_RSFT)>;
+        };
     };
 };
