@@ -40,5 +40,10 @@
             key-positions = <17 18>;
         };
 
+        combo_del {
+            bindings = <&kp DEL>;
+            key-positions = <5 6>;
+        };
+
     };
 };
