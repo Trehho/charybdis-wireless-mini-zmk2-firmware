@@ -24,13 +24,19 @@
 
         combo_tab {
             bindings = <&kp TAB>;
-            key-positions = <31 32>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        combo_gui {
+            bindings = <&kp LGUI>;
+            key-positions = <20 21>;
             layers = <0>;
         };
 
         combo_esc_right {
             bindings = <&kp ESC>;
-            key-positions = <19 20>;
+            key-positions = <14 15>;
             layers = <0>;
         };
 
@@ -39,9 +45,5 @@
             key-positions = <17 18>;
         };
 
-        combo_power_off {
-            bindings = <&kp C_POWER>;
-            key-positions = <5 6>;
-        };
     };
 };
