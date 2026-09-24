@@ -246,7 +246,7 @@
         mm_qm_ex: question_exclamation {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp QUESTION>, <&kp EXCLAMATION>;
+            bindings      = <&kp EXCLAMATION>, <&kp AT_SIGN>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
 
@@ -275,6 +275,13 @@
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings      = <&kp RBRC>, <&kp RBKT>;
+            mods          = <(MOD_LSFT | MOD_RSFT)>;
+        };
+
+        mm_cm_amp_dol: amp_doll {
+            compatible    = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings      = <&kp AMPS>, <&kp DLLR>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
     };
