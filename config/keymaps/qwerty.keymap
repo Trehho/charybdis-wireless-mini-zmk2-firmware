@@ -51,7 +51,7 @@
 // ╭───────────────┬────────────────┬────────────────┬─────────────────┬─────────────────┬──────╮  ╭──────┬──────────────────┬──────────────────┬─────────────────┬─────────────────┬─────────────╮
     &kp DEL          &kp Q            &kp W            &kp E             &kp R             &kp T    &kp Y   &kp U              &kp I              &kp O             &kp P             &kp TILDE
 // ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼─────────────────┼─────────────┤
-    &kp TAB          &kp A            &lt 4 S          &kp D             &kp F             &kp G    &kp H   &kp J              &kp K              &ht_right LGUI L  &kp  EQUAL        &kp APOS
+    &kp PIPE         &kp A            &kp S            &kp D             &kp F             &kp G    &kp H   &kp J              &kp K              &kp L             &kp EQUAL         &kp APOS
 // ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼─────────────────┼─────────────┤
     &kp UNDER        &kp Z            &kp X            &kp C             &kp V             &kp B    &kp N   &kp M              &mm_cm_sc          &mm_pr_col        &mm_qm_ex         &kp FSLH
 // ╰───────────────┴────────────────┴────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┴─────────────────┴─────────────────┴─────────────╯
@@ -63,9 +63,9 @@
         NUM {
             display-name = "Num";
             bindings = <
-&none    &msc MOVE_LEFT  &msc MOVE_UP     &msc MOVE_DOWN  &msc MOVE_RIGHT    &none         &none          &kp N7      &kp N8      &kp N9      &none         &none
-&none    &kp LEFT        &kp UP           &kp DOWN        &kp RIGHT          &h_split      &none          &kp N4      &kp N5      &kp N6      &kp N0        &none
-&none    &kp HOME        &kp PG_UP        &kp PG_DN       &kp END            &v_split      &kp PIPE       &kp N1      &kp N2      &kp N3      &none         &none
+&none    &msc MOVE_LEFT  &msc MOVE_UP     &msc MOVE_DOWN  &msc MOVE_RIGHT    &none         &none          &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &none         &none
+&none    &kp LEFT        &kp UP           &kp DOWN        &kp RIGHT          &h_split      &none          &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6      &kp NUMBER_0  &none
+&none    &kp HOME        &kp PG_UP        &kp PG_DN       &kp END            &v_split      &none          &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &none         &none
                                           &none           &none              &none         &none          &none
             >;
         };
@@ -73,10 +73,10 @@
         SYM {
             display-name = "Sym";
             bindings = <
-&none  &kp TILDE  &none     &kp CARET  &none     &none      &none      &kp PLUS     &kp LBKT  &kp RBKT  &kp GRAVE  &kp BSLH
-&none  &kp UNDER  &none     &kp LT     &kp GT    &none      &kp DLLR   &kp MINUS    &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
-&none  &none      &none     &kp AT     &kp HASH  &none      &kp PRCNT  &kp AMPS     &kp LBRC  &kp RBRC  &kp AT     &kp FSLH
-                            &none      &trans    &trans     &trans     &trans
+&none  &none  &none     &none      &none     &none     &none    &none       &kp LBKT  &kp RBKT  &kp GRAVE  &kp BSLH
+&none  &none  &kp LT    &kp GT     &kp MINUS &none     &none    &kp PLUS    &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
+&none  &none  &none     &kp AT     &kp HASH  &none     &none    &kp AMPS    &kp LBRC  &kp RBRC  &kp AT     &kp FSLH
+                        &none      &trans    &trans    &trans   &trans
             >;
         };
 
