@@ -234,7 +234,7 @@ text.br  { font-family: "JetBrainsMono Nerd Font"; fill: var(--all-corner); font
 </g>
 <g transform="translate(38, 142)" class="key keypos-12">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">|</text>
+<text x="0" y="0" class="key tap">\</text>
 </g>
 <g transform="translate(114, 142)" class="key keypos-13">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
@@ -561,11 +561,9 @@ text.br  { font-family: "JetBrainsMono Nerd Font"; fill: var(--all-corner); font
 </g>
 <g transform="translate(874, 38)" class="key keypos-8">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">[</text>
 </g>
 <g transform="translate(950, 48)" class="key keypos-9">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">]</text>
 </g>
 <g transform="translate(1026, 66)" class="key keypos-10">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
@@ -649,11 +647,15 @@ text.br  { font-family: "JetBrainsMono Nerd Font"; fill: var(--all-corner); font
 </g>
 <g transform="translate(874, 190)" class="key keypos-32">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">{</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.5em">mm</tspan><tspan x="0" dy="1.5em">cm</tspan><tspan x="0" dy="1.5em">lbrkt</tspan>
+</text>
 </g>
 <g transform="translate(950, 200)" class="key keypos-33">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">}</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.5em">mm</tspan><tspan x="0" dy="1.5em">cm</tspan><tspan x="0" dy="1.5em">rbrkt</tspan>
+</text>
 </g>
 <g transform="translate(1026, 218)" class="key keypos-34">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
@@ -665,9 +667,9 @@ text.br  { font-family: "JetBrainsMono Nerd Font"; fill: var(--all-corner); font
 <g transform="translate(302, 277)" class="key keypos-36">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
 </g>
-<g transform="translate(386, 288) rotate(15.0)" class="key trans keypos-37">
-<rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(386, 288) rotate(15.0)" class="key keypos-37">
+<rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
+<text x="0" y="0" class="key tap">LSHIFT</text>
 </g>
 <g transform="translate(462, 324) rotate(30.0)" class="key trans keypos-38">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key trans"/>
