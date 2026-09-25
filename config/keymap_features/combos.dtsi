@@ -14,7 +14,7 @@
 
         combo_mid_click {
             bindings = <&mkp MCLK>;
-            key-positions = <24 27>;
+            key-positions = <28 31>;
         };
 
         combo_delete {
