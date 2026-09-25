@@ -12,6 +12,11 @@
             key-positions = <31 32>;
         };
 
+        combo_mid_click {
+            bindings = <&mkp MCLK>;
+            key-positions = <24 27>;
+        };
+
         combo_delete {
             bindings = <&kp BSPC>;
             key-positions = <15 16>;
