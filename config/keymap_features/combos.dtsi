@@ -17,6 +17,12 @@
             key-positions = <28 31>;
         };
 
+        combo_bt_clear_safe {
+            bindings = <&bt BT_CLR>;
+            key-positions = <0 11>;
+            layers = <0>;
+        };
+
         combo_delete {
             bindings = <&kp BSPC>;
             key-positions = <15 16>;
