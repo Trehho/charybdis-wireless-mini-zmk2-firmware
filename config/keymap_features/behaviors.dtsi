@@ -284,5 +284,13 @@
             bindings      = <&kp AMPS>, <&kp DLLR>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
+
+
+        mm_cm_hs_n_us: hash_n_us {
+            compatible    = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings      = <&kp HASH>, <&kp TILDE>;
+            mods          = <(MOD_LSFT | MOD_RSFT)>;
+        };
     };
 };
