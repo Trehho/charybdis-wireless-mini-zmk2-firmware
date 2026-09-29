@@ -246,7 +246,7 @@
         mm_cm_ex: question_exclamation {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp AT_SIGN>, <&kp EXCLAMATION>;
+            bindings      = <&kp HASH>, <&kp EXCLAMATION>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
 
@@ -281,7 +281,7 @@
         mm_cm_amp_dol: amp_doll {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp AMPS>, <&kp DLLR>;
+            bindings      = <&kp DLLR>, <&kp AT_SIGN>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
 
@@ -289,7 +289,7 @@
         mm_cm_hs_n_us: hash_n_us {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings      = <&kp HASH>, <&kp TILDE>;
+            bindings      = <&kp AMPS>, <&kp TILDE>;
             mods          = <(MOD_LSFT | MOD_RSFT)>;
         };
     };
