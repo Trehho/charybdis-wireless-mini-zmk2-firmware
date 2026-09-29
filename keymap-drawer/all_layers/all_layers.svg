@@ -357,7 +357,7 @@ text.br  { font-family: "JetBrainsMono Nerd Font"; fill: var(--all-corner); font
 </a></g>
 <g transform="translate(754, 288) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">LALT</text>
+<text x="0" y="0" class="key tap">TAB</text>
 </g>
 </g>
 </g>
