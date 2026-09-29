@@ -30,7 +30,7 @@
 
         combo_tab {
             bindings = <&kp TAB>;
-            key-positions = <19 20>;
+            key-positions = <14 15>;
             layers = <0>;
         };
 
@@ -42,7 +42,7 @@
 
         combo_esc_right {
             bindings = <&kp ESC>;
-            key-positions = <14 15>;
+            key-positions = <19 20>;
             layers = <0>;
         };
 
