@@ -75,7 +75,7 @@
             bindings = <
 &none  &none      &none     &none      &none      &none      &none      &none         &none        &none        &none      &none
 &none  &kp GRAVE  &none     &kp LT     &kp GT     &kp PRCNT  &kp CARET  &kp LPAR      &kp RPAR     &none        &kp ASTRK  &none
-&none  &none      &none     &none      &none      &none      &none      &mm_cm_lbrkt  &mm_cm_rbrkt &none        &none      &none
+&none  &none      &none     &kp LBKT   &kp RBKT   &none      &none      &kp LBRC      &kp RBRC     &none        &none      &none
                             &none      &kp LSHIFT &trans     &trans     &trans
             >;
         };
