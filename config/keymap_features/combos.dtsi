@@ -28,12 +28,6 @@
             key-positions = <15 16>;
         };
 
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <14 15>;
-            layers = <0>;
-        };
-
         combo_gui {
             bindings = <&kp LGUI>;
             key-positions = <20 21>;
